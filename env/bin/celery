@@ -1,0 +1,10 @@
+#!/home/meenal/tastypie/env/bin/python2.7
+# EASY-INSTALL-ENTRY-SCRIPT: 'celery==4.0.2','console_scripts','celery'
+__requires__ = 'celery==4.0.2'
+import sys
+from pkg_resources import load_entry_point
+
+if __name__ == '__main__':
+    sys.exit(
+        load_entry_point('celery==4.0.2', 'console_scripts', 'celery')()
+    )
